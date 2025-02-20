@@ -29,10 +29,37 @@
     }
 
     .top {
-        height: 400px;
+        height: 350px;
         background-color: #1F2937;
+        display: flex;
+        justify-content: space-around;
     }
 
     .placeholder {
-        
+        height: 225px;
+    }
+
+    .top-left {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        gap: 6px;
+        max-width: 400px;
+
+    }
+
+    .title {
+        font-size: 48px;
+        color: #F9FAF8;
+        font-weight: 900;
+    }
+
+    .subtext {
+        font-size: 18px;
+        color: #E5E7EB;
+    }
+
+    .top-right {
+        display: flex;
+        align-items: center;
     }
