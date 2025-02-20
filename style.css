@@ -36,6 +36,16 @@
         display: flex;
         justify-content: space-around;
     }
+    
+    .button {
+        padding: 12px 28px;
+        border: none;
+        background-color: #3882F6;
+        color: white;
+        font-weight: bold;
+        border-radius: 8px;
+        cursor: pointer;
+    }
 
     .placeholder {
         background-color: #6C747D;
@@ -44,7 +54,6 @@
         width: 500px;
         align-items: center;
         justify-content: center;
-        flex-shrink: 
     }
 
     .top-left {
@@ -142,4 +151,35 @@
     
     }
    
+    .bottom {
+        height: 300px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
 
+    .cta {
+        height: 100px;
+        width: 800px;
+        background-color: #3882F6;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    }
+    
+    .cta-top {
+        color: #F9FAF8;
+    }
+
+    .cta-bottom {
+        color: #E5E7EB;
+    }
+
+    .cta-button {
+        border: white solid 2px;
+        border-radius: 4px;
+        padding: 4px 16px;
+        color: white;
+        background-color: #3882F6;
+        cursor: pointer;
+    }
