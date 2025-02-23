@@ -13,11 +13,17 @@
     }
 
     .header {
-        height: 50px;
+        height: 75px;
         background-color: #1F2937;
         display: flex;
         justify-content: space-around;
         align-items: center;
+    }
+
+    .top-container {
+        display: flex;
+        width: 1000px;
+        justify-content: space-between;
     }
 
     .logo {
@@ -160,7 +166,7 @@
 
     .cta {
         height: 100px;
-        width: 800px;
+        width: 1000px;
         background-color: #3882F6;
         display: flex;
         justify-content: space-around;
@@ -182,4 +188,13 @@
         color: white;
         background-color: #3882F6;
         cursor: pointer;
+    }
+
+    .footer {
+        height: 75px;
+        background-color: #1F2937;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: white;
     }
